@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latest Books</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        #content {
+            width: 80%;
+            margin: 20px auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .post {
+            text-align: center;
+        }
+        .post h2 {
+            font-size: 24px;
+            color: #333;
+        }
+        .entry {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .book_box {
+            width: 30%;
+            margin: 10px;
+            padding: 15px;
+            background-color: #eaeaea;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            border-radius: 5px;
+        }
+        .book_box img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .book_box h2 {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        .book_box p {
+            font-size: 16px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Content Section -->
+    <div id="content">
+        <div class="post">
+            <h2 class="title">Latest Books</h2>
+            <div class="entry">
+                <!-- Mock book data -->
+                <div class="book_box">
+                    <a href="book_detail.php?id=1">
+                        <img src="images/book1.jpg" alt="Book 1">
+                        <h2>Book 1</h2>
+                        <p>Rs. 500</p>
+                    </a>
+                </div>
+                <div class="book_box">
+                    <a href="book_detail.php?id=2">
+                        <img src="images/book2.jpg" alt="Book 2">
+                        <h2>Book 2</h2>
+                        <p>Rs. 450</p>
+                    </a>
+                </div>
+                <div class="book_box">
+                    <a href="book_detail.php?id=3">
+                        <img src="images/book3.jpg" alt="Book 3">
+                        <h2>Book 3</h2>
+                        <p>Rs. 600</p>
+                    </a>
+                </div>
+                <!-- Add more book boxes as needed -->
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
